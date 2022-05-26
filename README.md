@@ -1,6 +1,6 @@
 # Proyecto-kronos
 <h1 align="center">Hola 👋, soy Estefania</h1>
-<h3 align="center">Una desarrolladora frontend apasionada</h3>
+<h3 align="center">Desarrolladora en proceso </h3>
 
 - 🔭 Actualmente estoy trabajando en **Proyecto-kronos**
 
