@@ -8,19 +8,33 @@ html, body{
 ul {
     list-style: none;
 }
-/*Nav */
-.nav-principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
+.contenedor{
+    margin: auto;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+/*Nav*/
+.nav-principal{
+    font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   background-color: black;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   overflow: hidden;
    transition: all 0.5s ease;
 }
 .nav-principal ul{
     display: flex;
 }
 .nav-principal ul li{
-    padding: 20px;
+    padding: 25px;
 }
 .nav-menu{
     width: 80%;
@@ -29,7 +43,7 @@ ul {
 }
 .style-logo{
     display: flex;
-    height: 150px;
+    height: 200px;
     
 }
 .nav-menu a{
@@ -39,18 +53,20 @@ ul {
 .nav-menu li a:hover {
     padding: 5px 10px;
     background-color: #787878;
-    color: black;
+    color: #4a4a4a;
     border-radius: 5px;
 }
 .nav-menu li a{
     transition: all 0.5s ease;
 }
 
-
 /*FIN NAV*/
 
 /*SECCIONES*/
 /*S1*/
+.seccion1-contenedor{
+padding-top: 5rem;
+}
 .seccion1{
     width: 100%;
     height: 70vh;
@@ -209,8 +225,8 @@ ul {
     display: flex;
    justify-content: right;
    margin-right: 20px;
-   padding-bottom: 10%;
    float: right;
+   padding: 75px 10px 10px 75px;
    overflow: hidden;
 }
 .seccion4-img ul {
@@ -302,82 +318,75 @@ ul {
 /*FIN PAGINA MDC19*/
 
 /*PAGINA CONTACTO*/
-
-.contacto {
-    padding-bottom: 75px;
-    padding-top: 75px;
-    background-color: black;
+.contacto1-contenedor {
+    padding-top: 6rem;
 }
-.contacto .maps {
-    width: 70%;
-}
-.contacto h1, h3, p {
-    color: white;
-}
-.contacto h1{
-    padding-bottom: 15%;
-}
-.contacto h3{
-    padding-bottom: 10%;
-}
-.contacto .presentacion {
-    text-align: right;
-}
-.contacto .row {
+.contacto1{
+    width: 50%;
+    height: 60vh;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    position: absolute;
+    text-shadow: 2px 3px 2px #E4C588;
+    margin-left: 50px;
 }
-.maps {
-    width: 70%;
+.contacto1-img{
+    height: 846px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    float: right;
 }
-@media (max-width: 767px){
-    .nosotros {
-        padding-bottom: 45px;
-        padding-top: 45px;
-    }
-    .maps {
-        width: 5px;
-    }
-    .contacto .presentacion {
-        text-align: center;
-    }
+.contacto2{
+    font-size: 20px;
+    font-weight: 630px;
+    padding: 0 1rem;
+    margin-top: 400px;
+    display: flex;
+    text-align: left;
+}
+.contacto2 h2{
+    width: 50%;
+    height: 20vh;
+    font-size: 2rem; 
+    text-shadow: 2px 3px 2px #E4C588;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.contacto2 p {
+    margin-top: 150px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #E4C588;
+}
+.contacto2-lista{
+    background-color: #E4C588;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.contacto2-maps {
+    margin: 10px 10px 0px 10px;
+    display: flex;
+    float: left;
+}
+.contacto3 h2{
+    width: 200%;
+    height: 30vh;
+    font-size: 25px;
+    text-shadow: 2px 3px 2px #E4C588;
+    margin-left: 700px;
+    margin-top: 60px;
+}
+.contacto3-form{
+    text-align: center;
 }
 
-/*Formulario*/
-.contacto2-contenedor {
-    background-color: black;
-    margin-left: 8.3%;
-    margin-right:  8.3%;
-}
-.bg {
-    margin-left: 20%;
-    margin-bottom: 5%;
-}
-.col .mb4  {
-    margin-right: 20%;
-}
-.d-grid {
-    margin-right: 20%;
-    margin-bottom: 10%;
-    margin-top: 5%;
-}
-.col h2{
-    margin-right: 20%;
-    color: white;
-}
-.mb4 label{
-    color: white;
-}
-@media (max-width: 767px){
-    .contacto2-contenedor {
-        padding-bottom: 45px;
-        padding-top: 45px;
-        padding-left: 10%;
-    }
-    .col h2 {
-        text-align: center;
-    }
-}
 /*FIN PAGINA CONTACTO*/
 
 /*PAGINA COTIZADOR*/
@@ -404,55 +413,41 @@ ul {
 /*FIN PAGINA COTIZADOR*/
 
 /*FOOTER*/
-.footer{
-width: 100%;
-background-color: black;
-}
-.footer .grupo-1{
+.footer-contenedor{
     width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-.footer .grupo-1 .box figure {
-    width: 100%;
-    height: 100%;
+    height: 40vh;
+    background-color: black;
+    padding: 1em 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 200px;
 }
-.footer .grupo-1 .box figure img {
-    width: 50px;
+.footer-rede{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.footer .grupo-1 .box h2{
-    color: white;
-    margin-bottom: 25px;
-    font-size: 20px;
+.footer-ss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.footer .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: white;
-    margin-right: 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: all 300ms ease;
+.footer-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 10px;
 }
-.footer .grupo-1 .red-social a:hover{
-    color: aqua;
-}
-@media screen and (max-width: 767px){
-    .footer .grupo-1{
-        width: 98%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
+.footer-contenedor li{
+    color: #DBDBDB;
+    font-weight: 530px;
+    font-size: 16px;
+    margin: 1px;
 }
 /*FIN FOOTER*/
