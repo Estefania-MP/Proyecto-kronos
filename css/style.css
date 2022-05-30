@@ -190,26 +190,12 @@ ul {
 /*FIN PAGINA CONTACTO*/
 
 /*PAGINA COTIZADOR*/
-.cotizador-contenedor{
-    background-color: #6A6A6A ;
-    margin-top: 100px;
+.container-cotizador{
+    background-image: url(../imagenes/fondo-index.jpeg);
 }
-.cotizador h1{
-    text-align: center;
-    font-size: 50px;
-    text-shadow: 2px 3px 2px #9B9B9B;
-    padding-top: 50px;
+.form-group .fa{
+    color: white;
 }
-.cotizador p{
-    text-align: center;
-    font-size: 30px;
-}
-.cotizador-form{
-    text-align: center;
-    padding-bottom: 50px;
-    font-size: 20px;
-}
-
 /*FIN PAGINA COTIZADOR*/
 
 /*FOOTER*/
