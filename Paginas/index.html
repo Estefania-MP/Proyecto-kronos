@@ -25,7 +25,7 @@
               <div class="collapse navbar-collapse nav-menu " id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link " aria-current="page" href="#kronos">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#planes">Planes</a>
@@ -47,119 +47,194 @@
     <!-- Fin Header -->
 
     <!-- Secciones -->
-    <section class="seccion1-contenedor">
-        <div class="seccion1">
-            <h1 id="home">Kronos Seguros</h1>
-            <div class="seccion1-p">
-                <p>Coberturas y servicios únicos a un precio increíble.</p>
+    <!-- Carrusel -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-        </div>
-        <div class="img-inicio">
-            <img src="../imagenes/inicio-img.jpg" alt="INICIO KRONOS">
-        </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/c-1.png" height="500" class="d-block w-100" alt="Kronos Seguros">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/c-2.png" height="500" class="d-block w-100" alt="Autos">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/c-3.png" height="500" class="d-block w-100" alt="Motos">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/c-4.png" height="500" class="d-block w-100" alt="Bicicletas">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
+    <!-- Fin Carrusel -->
     
     <!-- Main -->
+    <!-- Seccion Contratacion -->
     <main class="main-contenedor">
-        <section class="seccion2-contenedor">
-                <div class="seccion2-titulo">
-                <h2>¿Como contratar Kronos?</h2>
-                </div>
-                <div>
-                <p class="seccion2-p">
+        <section>
+            <div class="contratacion">
+                <h2 id="kronos"><b>¿Como contratar Kronos?</b></h2>
+                <p class="contratacion-p">
                     ¡Es súper cómodo! Podés hacer todo 100% desde tu laptop o celular, desde donde estés.
                 </p>
-              </div>
-
-              
-              <div class="seccion2-contratacion">
-                <div class="contratacion">
-                    <img src="../imagenes/img4.jpeg" alt="Paso 1">
-                    <h4>
-                        Seleccioná tu medio de transporte.
-                    </h4>
-                </div>
-                <div class="contratacion">
-                    <img src="../imagenes/img5.png" alt="Paso 2">
-                    <h4>
-                        Elegí el mejor plan para vos.
-                    </h4>
-                </div>
-                    <div class="contratacion">
-                        <img src="../imagenes/img6.jpeg" alt="Paso 3">
-                        <h4>
-                            Cargá tus datos de pago.
-                        </h4>
+                </div> 
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                  <div class="col-6">
+                    <div>
+                        <!-- Tarjetas -->
+                        <div class="card mb-3 border-dark" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../imagenes/img4.jpeg"  class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center"><b>Paso 1</b></h5>
+                                  <p class="card-text text-black text-center">Ingresa tus datos completos en la web</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div></div>
+                  </div>
+                  <div class="col-6">
+                    <div>
+                        <div class="card mb-3 border-dark" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../imagenes/img5.png" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center"><b>Paso 2</b></h5>
+                                  <p class="card-text text-black text-center">Elegi la mejor cobertura para vos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
-                   <div class="contratacion">
-                    <img src="../imagenes/img7.jpeg" alt="Paso 4">
-                    <h4>
-                        ¡Listo! Ya tenés tu seguro.
-                    </h4>
-                   </div>
-            </div>
-        </section>
-
-        <section class="seccion3-contenedor">
-            <div class="seccion3-titulo">
-                <h2 id="planes">Nuestros Planes</h2>
-            </div>
-            <div class="seccion3-p">
-                <p>
-                    Calculá la cuota mensual de tu seguro en un click 
-                </p>
-                <div class="seccion3-planes">
-            <div class="planes">
-                <img src="../imagenes/img1.jpg"  alt="Autos">
-                <h4>
-                    Autos
-                </h4>
-                <p>
-                    Hoy podés acceder a la mejor cobertura para tu auto, obteniendo grandes beneficios para vos.
-                </p>
-                <a href="cotizar.html">Cotizar</a>
-            </div>
-            <div class="planes">
-                <img src="../imagenes/img3.jpeg" alt="Motos">
-                <h4>
-                    Motos
-                </h4>
-                <p>
-                    Vas a poder contratar tu seguro para motos de forma simple, eligiendo el plan que más se adapte a tus necesidades.
-                </p>
-                <a href="cotizar.html">Cotizar</a>
-            </div>
-            <div class="planes">
-                <img src="../imagenes/img2.jpg" alt="Bicicletas">
-                <h4>
-                   Bicicletas
-                </h4>
-                <p>
-                    Asegurá tu Bici y pedaleá tranqui.¡Simple, fácil y online!
-                </p>
-                <a href="cotizar.html">Cotizar</a>
-            </div>
-        </div>
-            </div>
-        </section>
-
-        <section class="seccion4-contenedor">
-            <div class="seccion4-img">
-                <ul>
-                    <li><img src="../imagenes/img8.jpeg" alt="QUIENES SOMOS"></li>
-                    <li><img src="../imagenes/img11.jpeg" alt="QUIENES SOMOS"></li>
-                    <li><img src="../imagenes/img12.jpeg" alt="QUIENES SOMOS"></li>
-                </ul>
-            </div>
-            <div class="seccion4-titulo">
-                <h2 id="quienessomos">Quienes Somos</h2>
-            </div>
-                <div class="seccion4-p">
-                    <p>
-                        Somos una de las primera insurtech en Argentina. Nuestros valores apuntan a una cultura enfocada en lograr resultados increíbles dentro de un ambiente divertido y amigable en donde cada uno es dueño. <br> Buscamos provocar la transformación en el mundo del seguro, creando nuevas experiencias que nos acerquen a las personas.
-                    </p>
+                  </div>
+                  <div class="col-6">
+                    <div>
+                        <div class="card mb-3 border-dark" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../imagenes/img6.jpeg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center"><b>Paso 3</b></h5>
+                                  <p class="card-text text-black text-center">Carga los datos completos de tu medio de pago</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-6">
+                    <div>
+                        <div class="card mb-3 border-dark" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../imagenes/img7.jpeg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center"><b>Paso 4</b></h5>
+                                  <p class="card-text text-black text-center">!Listo! Recibiras un WhatsApp para finalizar</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Fin Trajetas -->
+                    </div>
+                  </div>
                 </div>
+              </div>
         </section>
+        <!-- Fin Seccion Contratacion -->
+
+        <!-- Seccion Planes -->
+        <section>
+            <div class="planes">
+                <h2 id="planes"><b>Nuestros Planes</b></h2>
+                <p class="planes-p">
+                    Calculá la cuota mensual de tu seguro en un click
+                </p>
+                </div> 
+                <!-- Tarjetas -->
+            <div class="container">
+                <div class="row">
+                  <div class="col card-p">
+                      <!-- Tarjetas -->
+                    <div class="card border-dark" style="width: 18rem;">
+                        <img src="../imagenes/autos.jpeg" height="210" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><b>Autos</b></h5><br>
+                          <p class="card-text text-black text-center fw-light">Hoy podés acceder a la mejor cobertura para tu auto, obteniendo grandes beneficios para vos.</p>
+                          <a href="cotizar.html" class="btn btn-dark d-grid gap-2 col-6 mx-auto">Cotizar</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-dark" style="width: 18rem;">
+                        <img src="../imagenes/motos.jpeg" height="210" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><b>Motos</b></h5><br>
+                          <p class="card-text text-black text-center fw-light">Contrata tu seguro para motos de forma simple, eligiendo el plan que más se adapte a tus necesidades.</p>
+                          <a href="cotizar.html" class="btn btn-dark d-grid gap-2 col-6 mx-auto">Cotizar</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-dark" style="width: 18rem;">
+                        <img src="../imagenes/bicicletas.jpeg" height="230" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><b>Bicicletas</b></h5><br>
+                          <p class="card-text text-black text-center fw-light">Asegurá tu Bici y pedaleá tranqui.¡Simple, fácil y online!</p>
+                          <a href="cotizar.html" class="btn btn-dark d-grid gap-2 col-6 mx-auto">Cotizar</a>
+                        </div>
+                      </div>
+                      <!-- Fin Tarjetas -->
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Fin Seccion Panes -->
+
+        <!-- Seccion Quienes Somos -->
+        <section >
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img src="../imagenes/img8.jpeg" width="300" class="rounded float-start" alt="...">
+                  </div>
+                  <div class="col text-center">
+                    <h2 class="titulo"><b>Quienes Somos</b></h2>
+                    <p class="parrafo">Somos una de las primera insurtech en Argentina. Nuestros valores apuntan a una cultura enfocada en lograr resultados increíbles dentro de un ambiente divertido y amigable en donde cada uno es dueño.
+                        Buscamos provocar la transformación en el mundo del seguro, creando nuevas experiencias que nos acerquen a las personas.</p>
+                  </div>
+                  <div class="col">
+                    <img src="../imagenes/img12.jpeg" width="300" class="rounded float-end" alt="...">
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Fin Seccion Quienes Somos -->
         <!-- Fin Secciones -->
     </main>
     <!-- Fin Main -->

@@ -45,203 +45,71 @@ ul {
 .nav-menu li a{
     transition: all 0.5s ease;
 }
-
-
 /*FIN NAV*/
 
 /*SECCIONES*/
-/*S1*/
-.seccion1{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 3rem;
-    position: absolute;
+
+/*Seccion Contratacion*/
+.main-contenedor{
+    background-image: url(../imagenes/fondo-index.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.seccion1 h1{
+.contratacion h2{
+    padding-top: 10%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
     color: white;
     text-shadow: 2px 7px 2px black;
-    
 }
-.img-inicio{
-    height: 461px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+.contratacion-p{
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5%;
+    font-size: 30px;
+    padding-bottom: 5%;
+    text-shadow: 2px 7px 2px black;
 }
-.seccion1-p{
+/*Fin Seccion Contratacion*/
+
+/*Seccion Planes*/
+.planes h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    text-shadow: 2px 7px 2px black;
     color: white;
-    text-shadow: 5px 5px 2px black;
+    padding-top: 10%;
 }
-/* FIN S1*/
-
-/*S2*/
-.seccion2-titulo{
+.planes-p{
     text-align: center;
-    font-size: 40px;
-    margin-top: 100px;
     font-weight: 100;
-    text-shadow: 2px 7px 2px #9B9B9B;
-}
-.seccion2-p{
-    text-align: center;
     font-size: 30px;
+    text-shadow: 2px 7px 2px black;
+    padding-bottom: 2%;
 }
-.seccion2-contratacion{
-    width: 100%;
-    max-height: 1200px;
-    height: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+.card-p {
+    padding-bottom: 10%;
 }
-.contratacion{
-    width: 250px;
-    height: 330px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    background-color: black;
-}
-.contratacion :hover{
-    transform: translateY(-20px);
-    box-shadow: 8 12px 16px rgba(0, 0, 0, 0.2);
-}
-.contratacion img{
-    width: 330px;
-    height: 220px;
-}
-.contratacion h4{
-    font-weight: 630px;
-    padding: 0 1rem;
-    font-size: 20px;
-    color: #FFF7F7;
-}
-/*FIN S2*/
+/*FIN Seccion Planes*/
 
-/*S3*/
-.seccion3-titulo{
+/*Seccion Quienes Somos*/
+.titulo{
     text-align: center;
-    font-size: 40px;
-    margin-top: 100px;
-    font-weight: 100;
-    text-shadow: 2px 7px 2px #9B9B9B;
-    padding: 300px 20px 1px;
+   font-weight: 100;
+   color: white;
+   text-shadow: 2px 7px 2px black;
+   padding-bottom: 5%;
 }
-.seccion3-p{
-    text-align: center;
-    font-size: 30px;
-}
-.seccion3-planes{
-    width: 100%;
-    max-height: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: center;
-   margin: auto;
-}
-.planes{
-    width: 330px;
-    height: 430px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 40px;
-    text-align: center;
-    transition: all 0.25s;
-    background: black;
-}
-.planes:hover{
-    transform: translateY(-15px);
-    box-shadow: 8 12px 16px rgba(0, 0, 0, 0.2);
-}
-.planes img{
-    width: 330px;
-    height: 220px;
-}
-.planes h4{
-    font-weight: 530px;
-    padding: 1 1rem;
-    font-size: 20px;
-    color: #FFF7F7;
-}
-.planes a{
-    font-weight: 500;
-    text-decoration: none;
-    color: #F9B2B2;
-    transition: all 0.5s ease;
-}
-.planes a:hover{
-    padding: 2px 3px;
-    background-color: #787878;
-    color: #000;
-    border-radius: 10px;
-}
-.planes p{
-    font-weight: 630px;
-    padding: 0 1rem;
+/*Seccion Quienes Somos*/
+.parrafo {
     font-size: 15px;
-    color: #FFF7F7;
 }
-/*FIN S3*/
-
-/*S4*/
-.seccion4-titulo{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 200px;
-    font-weight: 100;
-    text-shadow: 2px 7px 2px #9B9B9B;
-    padding: 5px;
-}
-.seccion4-img{
-    width: 530px;
-    height: 420px;
-    display: flex;
-   justify-content: right;
-   margin-right: 20px;
-   padding-bottom: 10%;
-   float: right;
-   overflow: hidden;
-}
-.seccion4-img ul {
-    display: flex;
-    animation: cambio 20s infinite alternate linear;
-    width: 400%;
-}
-.seccion4-img li{
-    width: 100%;
-    list-style: none;
-}
-.seccion4-img img{
-    width: 100%;
-    height: 100%;
-}
-@keyframes cambio{
-    0%{margin-left: 0;}
-    25%{margin-left: -100%;}
-    70%{margin-left: -200%;}
-    100%{margin-left:-300%;}
-}
-.seccion4-p{
-    font-size: 20px;
-    font-weight: 630px;
-    padding: 0 1rem;
-    margin: 40px;
-    display: flex;
-    text-align: left;
-}
-/*FIN S4*/
-
+/*Fin Seccion Quienes Somos*/
 /*PAGINA MDC19*/
 .mdc19-contenedor{
     background: black ;
