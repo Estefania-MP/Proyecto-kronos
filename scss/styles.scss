@@ -1,0 +1,39 @@
+//Nesting 
+// GENERAL
+html, body{
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#FFF7F7, #9F9D9D);
+  ul{
+    list-style: none;
+}
+}
+// Probando SASS en Seccion Contratacion
+/*Seccion Contratacion*/
+.main-contenedor{
+    background-image: url(../imagenes/fondo-index.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    .contratacion{
+        h2{
+           padding-top: 5%;
+            font-size: 40px;
+            text-align: center;
+            font-weight: 100;
+            color: white;
+            text-shadow: 2px 7px 2px black;
+            p{
+                text-align: center;
+                font-weight: 100;
+                margin-top: 2%;
+                font-size: 30px;
+                padding-bottom: 5%;
+                text-shadow: 2px 7px 2px black;
+            }
+        }
+    }
+}
