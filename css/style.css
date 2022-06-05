@@ -46,7 +46,6 @@ html, body{
   }
   /*FIN NAV*/
   
-
 /*Seccion Contratacion*/
 .main-contenedor {
   background-image: url(../imagenes/fondo-index.jpeg);
@@ -69,56 +68,48 @@ html, body{
       font-size: 30px;
       padding-bottom: 5%;
       text-shadow: 2px 7px 2px black; }
+
 /*Fin Seccion Contratacion*/
- 
 /*Seccion Planes*/
-.contenedor-planes{
-    margin-top: 6%;
- }
- .planes h2{
+.contenedor-planes {
+  margin-top: 6%; }
+  .contenedor-planes .planes h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 100;
     text-shadow: 2px 7px 2px black;
-    color: white;
- }
- .planes-p{
+    color: white; }
+  .contenedor-planes .planes p {
     text-align: center;
     font-weight: 100;
     font-size: 30px;
     text-shadow: 2px 7px 2px black;
-    padding-bottom: 5%;
- }
-  
-  
- /*FIN Seccion Planes*/
-  
- /*Seccion Quienes Somos*/
- .titulo{
+    padding-bottom: 5%; }
+
+/*FIN Seccion Planes*/
+/*Seccion Quienes Somos*/
+.contenedor-qs {
+  background-image: url(../imagenes/fondo-qs.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+  .contenedor-qs .titulo {
     text-align: center;
-   font-weight: 100;
-   color: white;
-   text-shadow: 2px 7px 2px black;
-   padding-bottom: 10%;
- }
- .parrafo {
-    font-size: 15px;
- }
- .contenedor-qs {
-    background-image: url(../imagenes/fondo-qs.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 10%;
- }
-  
- /*Fin Seccion Quienes Somos*/
-  
- /*PAGINA CONTACTO*/
-  
- .contacto {
+    font-weight: 100;
+    color: white;
+    text-shadow: 2px 7px 2px black;
+    padding-bottom: 10%; }
+  .contenedor-qs .parrafo {
+    font-size: 15px; }
+
+/*Fin Seccion Quienes Somos*/
+
+/*PAGINA CONTACTO*/
+ 
+.contacto {
     padding-bottom: 75px;
     padding-top: 75px;
     background-color: black;
