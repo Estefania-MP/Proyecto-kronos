@@ -1,0 +1,18 @@
+@import 'listas';
+
+%texth2{
+    font-size: nth($tamañotextos, 2);
+    text-align: center;
+    font-weight: 100;
+    color: nth($colores, 2); 
+    text-shadow: 2px 7px 2px nth($colores, 1 );
+}
+
+%parrafos {
+    text-align: center;
+   font-weight: 100;
+   font-size: nth($tamañotextos, 3);
+   padding-bottom: nth($padding, 3);
+   text-shadow: 2px 7px 2px nth($colores, 1 );
+}
+

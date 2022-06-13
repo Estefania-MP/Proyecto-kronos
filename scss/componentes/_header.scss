@@ -1,0 +1,53 @@
+@import '../base/extends';
+@import '../base/listas';
+@import '../base/mixins';
+
+/*Body*/
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(nth($colores, 3), nth($colores, 4));
+    ul {
+        list-style: none;
+    }
+  }
+
+  /*Nav*/
+  .nav-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+   transition: all 0.5s ease;
+   ul{
+    display: flex;
+   }
+   li{
+    padding: nth($padding, 7);
+   }
+   .style-logo{
+    display: flex;
+    height: 150px;
+} 
+ }
+ .nav-menu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: nth($colores, 2);
+     }
+     li a:hover {
+        padding: 5px 10px;
+        background-color: nth($colores, 5);
+        color: nth($colores, 1);
+        border-radius: 5px;
+     }
+     li a{
+        transition: all 0.5s ease;
+     }     
+ }
+ /*Fin Nav*/
+ 

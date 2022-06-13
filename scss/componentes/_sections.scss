@@ -1,0 +1,142 @@
+@import '../base/extends';
+@import '../base/listas';
+@import '../base/mixins';
+
+
+/*Secciones*/
+
+/*Seccion Contratacion*/
+.main-contenedor{
+    background-image: url(../imagenes/fondo-index.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    .contratacion{
+        h2{
+           @extend %texth2;
+            p{
+                @extend %parrafos;
+            }
+        }
+    }
+}
+/*Fin Seccion Contratacion*/
+
+/*Seccion Planes*/
+.contenedor-planes{
+    margin-top: nth($margin, 4);
+    .planes {
+        h2{
+            @extend %texth2;
+             p{
+                 @extend %parrafos;
+             }
+         }
+    }
+ }
+ /*FIN Seccion Planes*/
+
+ /*Seccion Quienes Somos*/
+ .contenedor-qs {
+    background-image: url(../imagenes/fondo-qs.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: nth($padding, 5);
+    padding-bottom: nth($padding, 5);
+    .titulo{
+        text-align: center;
+       font-weight: 100;
+       color: nth($colores, 2);
+       text-shadow: 2px 7px 2px nth($colores, 1);
+       padding-bottom: nth($padding, 5);
+     }
+     .parrafo {
+        font-size: nth($tamañotextos, 1);
+     }
+ }
+ /*Fin Seccion Quienes Somos*/
+
+ /*Pagina contacto*/
+ .contacto {
+    padding-bottom: nth($padding, 10);
+    padding-top:nth($padding, 10);
+    background-color: nth($colores, 1);
+    .map{
+        width: 70%;
+    }
+    h1,h3,p {
+        color: nth($colores, 2);
+    }
+    h1,h3 {
+        padding-bottom: nth($padding, 6);
+    }
+    .presentacion {
+        text-align: right;
+     }
+     .row {
+        display: flex;
+        align-items: center;
+     }
+     @media (max-width: 767px){
+        .nosotros {
+            padding-bottom: nth($padding, 9);
+            padding-top: nth($padding, 9);
+        }
+        .maps {
+            width: 5px;
+        }
+        .presentacion {
+            text-align: center;
+        }
+     }     
+ }
+ /*Formulario*/
+ .contacto2-contenedor {
+    background-color: nth($colores, 1);
+    margin-left:nth($margin, 5);
+    margin-right:  nth($margin, 5);
+    .bg {
+        margin-left: nth($margin, 7);
+        margin-bottom: nth($margin, 3);
+     }
+     .col .mb4  {
+        margin-right: nth($margin, 7);
+     }
+     .d-grid {
+        margin-right: nth($margin, 7);
+        margin-bottom: nth($margin, 6);
+        margin-top: nth($margin, 3);
+     }
+     .col h2{
+        margin-right:nth($margin, 7);
+        color: nth($colores, 2);
+     }
+     .mb4 label{
+        color: nth($colores, 2);
+     }
+     @media (max-width: 767px){
+        .contacto2-contenedor {
+            padding-bottom: nth($padding, 9);
+            padding-top: nth($padding, 9);
+            padding-left: nth($padding, 4);
+        }
+        .col h2 {
+            text-align: center;
+        }
+     }
+ }
+
+ /*Fin Pagina contacto*/
+
+ /*Pagina Cotizador*/
+ .container-cotizador{
+    background-image: url(../imagenes/fondo-index.jpeg);
+    .form-group .fa{
+        color: nth($colores, 2);
+     }     
+ }
+ /*Fin Pagina Cotizador*/
