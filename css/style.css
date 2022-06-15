@@ -243,15 +243,15 @@ html ul, body ul {
 .footer .grupo-1 .red-social a:hover {
   color: #8DDBE7;
 }
+
 @media screen and (max-width: 767px) {
-  .footer .footer .grupo-1 {
+  .footer .grupo-1 {
     width: 98%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
-    padding: 35px 0;
+    padding: 75px 10px;
   }
 }
-
 /*Fin footer*/
 .main-contenedor .contratacion h2, .contenedor-planes .planes h2 {
   font-size: 40px;
