@@ -26,7 +26,7 @@
 
 /*Seccion Planes*/
 .contenedor-planes{
-    margin-top: nth($margin, 4);
+    margin-top: nth($margin, 6);
     .planes {
         h2{
             @extend %texth2;
@@ -35,6 +35,12 @@
              }
          }
     }
+ }
+ @media (max-width: 767px){
+    .tarjetas-planes {
+        margin-left: 90px;
+    }
+
  }
  /*FIN Seccion Planes*/
 
@@ -57,7 +63,9 @@
      .parrafo {
         font-size: nth($tamañotextos, 1);
      }
+     
  }
+
  /*Fin Seccion Quienes Somos*/
 
  /*Pagina contacto*/

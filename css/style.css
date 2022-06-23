@@ -93,7 +93,12 @@ html ul, body ul {
 /*Fin Seccion Contratacion*/
 /*Seccion Planes*/
 .contenedor-planes {
-  margin-top: 6%;
+  margin-top: 10%;
+}
+@media (max-width: 767px) {
+  .tarjetas-planes {
+    margin-left: 90px;
+  }
 }
 /*FIN Seccion Planes*/
 /*Seccion Quienes Somos*/
